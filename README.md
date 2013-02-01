@@ -197,12 +197,12 @@ There is a lot of information in a tiny package. When things go wrong in your ap
 Visit this url: [localhost:3000/users](http://localhost:3000/users) and then find the log entry. Then open up the readme.md you copied onto your local machine and fill out this information:
 
 
-HTTP verb used in this request:
-URL:
-Controller Name:
-Controller Action:
-View File Name:
-Layout File Name:
+HTTP verb used in this request: get
+URL: http://localhost:3000/users
+Controller Name: users.controller.rb
+Controller Action: users
+View File Name: index.html.erb
+Layout File Name: application.html.erb
 Response code of the request:
 
 You should also notice a new line or two that we didn't see before, what is it (copy and paste, hint: after User Load) ?
